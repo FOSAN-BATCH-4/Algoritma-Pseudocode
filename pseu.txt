@@ -1,0 +1,60 @@
+#soal1
+Cek massa mobil dalam kg
+Cek Percepatan mobil
+Resultan sama dengan Massa dikalikan dengan Percepatan
+Apabila gaya bertambah atau positif maka percepatan juga akan bertambah atau positif
+Apabila gaya bertambah atau positif maka masa akan berkurang atau negatif begitu sebaliknya
+Apabila benda mengalami percepatan ke arah kanan maka resultan juga bergerak ke arah kanan hal itu menyebabkan besar gaya dan percepatan memiliki sifat no. 4
+
+#pseudocode1
+READ Massa Equal to 600
+Read Percepatan equal to 2
+Resultan equalto Massa times Percepatan
+Print Resultan
+
+#soal2
+Cek tahun
+apabila tahun dibagi 4 sama dengan 0 dan dibagi 100 tidak samadengan 0
+apabila tahun dibagi 4 sama dengan 0 dan tahun dibagi 100 sama dengan 0 dan tahun dibagi 400 sama dengan 0
+bila syarat tersebut terpenuhi maka termasuk tahun kabisat 
+print tahun kabisat bila benar
+print bukan kabisat bila salah 
+
+#pseudocode
+READ tahun
+if tahun mod 4 equal to 0 and tahun mod 100 not equal to 0 or tahun mod 4 equal to 0 and tahun mod 100 equal to 0 and tahun mod 400 equal to 0
+print tahun kabisat
+else
+print bukan kabisat
+
+#soal3
+cek kondisi mesin cuci
+cek pakaian yg akan dicuci
+masukkan pakaian satu persatu
+apabila pakaian sudah masuk semua mesin cuci dinyalakan
+
+#pseudocode
+read mesin cuci equal to false
+read pakaian dimesin equal to 0
+read pakaian yg akan dicuci equal to 20
+while pakaian di mesin cuci less than pakaian yg akan dicuci then add 1
+end while
+print mesin cuci equal to false
+
+#soal4
+cek jumlah siswa
+guru cek satu persatu dari awal
+jika ada siswa kuku panjang maka dia akan dihukum
+jika ada siswa kuku rapi maka dia akan dipuji 
+
+#pseudocode
+read jumlah siswa equal to 40
+read kuku panjang equal to false
+real siswa done equal to 0
+while siswa done less than 40
+if kuku panjang  equal to true 
+then guru menghukum
+else 
+guru memuji
+then siswa done add 1
+end while
