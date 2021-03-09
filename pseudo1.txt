@@ -1,0 +1,53 @@
+1. Newton Second Law
+    cek massa mobil
+    cek percepatan
+    mengkalikan massa dengan percepatan
+
+    READ massa EQUAL TO 600
+    READ accel EQUAL TO 2
+    gaya EQUAL TO massa TIMES TO accel
+    PRINT gaya
+
+
+2. Tahun Kabisat
+    input tahun yang ingin di uji
+    bagi tahun dengan kriteria pembagi tahun Kabisat
+    jika habis dibagi 4 maka tahun kabisat
+
+    IF tahun MODULO BY 4 IS EQUAL TO 0 AND tahun tahun MODULO BY 100 IS NOT EQUAL TO 0 THEN hasil EQUAL TO "Tahun Kabisat"
+    ELSE IF tahun MODULO BY 4 IS EQUAL TO 0 AND tahun MODULO BY 100 IS EQUAL TO 0 AND tahun MODULO BY 400 IS EQUAL TO 0 THEN hasil EQUAL TO "Tahun Kabisat"
+    ELSE hasil EQUAL TO "Bukan Tahun Kabisat"
+    PRINT hasil
+
+
+3. Laundry Day
+    cek jumlah baju
+    jika semua baju sudah masuk maka mesin menyala
+
+    READ jumlahBaju IS EQUAL TO 20
+    READ isiMesin IS EQUAL TO 0
+
+    WHILE isiMesin IS LOWER THAN jumlahBaju
+        THEN isiMesin ADD 1
+    END WHILE
+    PRINT on
+
+
+4. Periksa Kuku
+    cek jumlah murid
+    jika kuku panjang maka hukum
+    jika kuku tidak panjang maka dipuji
+    jika semua murid sudah di cek maka selesai
+
+    READ jumlahMurid IS EQUAL TO 40
+    READ jumlahMuridBelumCek IS EQUAL TO 0
+    READ standartKuku IS LESS THAN 1cm
+
+    IF kukuMurid IS EQUAL TO standartKuku
+        THEN dipuji
+    ELSE IF kukuMurid IS MORE THAN standartKuku
+        THEN dihukum
+    WHILE jumlahMuridBelumCek IS LOWER THAN jumlahMurid
+        THEN jumlahMuridBelumCek ADD 1
+    END WHILE
+    PRINT selesai
