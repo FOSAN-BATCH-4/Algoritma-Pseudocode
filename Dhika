@@ -1,0 +1,68 @@
+Permasalahan 1
+    Algoritma :
+    1. Mengecek massa mobil 
+    2. Mengecek percepatan
+    3. Rumus Resultan gaya adalah massa mobil * percepatan
+    4. Jika Resultan gaya menghasilkan positif, maka arah juga positif
+    5. Namun, jika Resultan gaya menghasilkan negatif, maka arah juga negatif
+    6. Cetak Resultan gaya berserta arahnya
+
+    Pseudocode :
+    1. READ massa_mobil EQUAL TO 600
+    2. READ percepatan EQUAL TO 2
+    3. resultan_gaya EQUAL TO massa_mobil TIMES percepatan
+    4. IF resultan_gaya LESS THAN 0 THEN arah EQUAL TO positif
+    5. IF resultan_gaya MORE THAN 0 THEN arah EQUAL TO negatif
+    6. PRINT resultan_gaya AND arah
+
+Permasalahan 2
+    Algoritma :
+    1. Mengecek tahun saat ini
+    2. Jika tahun saat ini habis dibagi 4 tapi tidak habis dibagi 100, maka jenis tahun saat ini adalah kabisat,atau 
+    3. Jika tahun saat ini habis dibagi 4, 100 dan 400, maka jenis tahun saat ini adalah kabisat
+    4. Selain itu, jenis tahun saat ini bukan kabisat
+    5. Cetak jenis tahun saat ini
+
+    Pseudocode :
+    1. READ tahun_ini
+    2. IF tahun_ini MODULUS 4 EQUAL TO 0 AND tahun_ini MODULUS 100 NOT EQUAL TO 0 THEN jenis_tahun EQUAL TO kabisat
+    3. ELSE IF tahun_ini MODULUS 4 EQUAL TO 0 AND tahun_ini MODULUS 100 EQUAL TO 0 AND tahun_ini MODULUS 400 EQUAL TO 0 THEN jenis_tahun EQUAL TO kabisat
+    4. ELSE jenis_tahun EQUAL TO bukan kabisat
+    5. PRINT jenis_tahun
+
+Permasalahan 3
+    Algoritma :
+    1. Kondisi mesin cuci mati
+    2. Menghitung jumlah pakaian yang dimiliki foxie
+    3. Menghitung jumlah pakaian yang sudah masuk di mesin cuci
+    4. Memasukan pakaian foxie ke mesin cuci satu per satu
+    5. Jika pakaian sudah dimasukan semua, maka kondisi mesin cuci nyala 
+
+    Pseudocode :
+    1. READ mesin_cuci EQUAL TO false
+    2. READ pakaian_foxie EQUAL TO 20
+    3. READ pakaian_mesin_cuci EQUAL TO 0
+    4. WHILE pakaian_mesin_cuci LESS THAN pakaian_foxie
+            THEN pakaian_mesin_cuci ADD 1
+       END WHILE
+    5. PRINT mesin_cuci EQUAL TO true
+
+Permasalahan 4 :
+    Algoritma :
+    1. mengecek jumlah siswa
+    2. kuku siswa tidak boleh panjang
+    3. guru mengecek kuku siswa satu per satu
+    4. disaat yang sama ketika guru mengecek satu per satu, jika guru menemukan kuku siswa yang panjang maka siswa tersebut dihukum
+    5. disaat yang sama ketika guru mengecek satu per satu, jika guru menemukan kuku siswa yang tidak panjang maka siswa tersebut akan dipuji
+
+    Pseudocode :
+    1. READ jumlah_siswa EQUAL TO 40
+    2. READ kuku_siswa_panjang EQUAL TO false
+    3. READ siswa_sudah_dicheck EQUAL TO 0
+    4. WHILE siswa_sudah_dicheck LESS THAN jumlah_siswa
+            IF kuku_siswa_panjang EQUAL TO true
+                THEN guru DO menghukum
+            ELSE guru DO memuji
+       THEN siswa_sudah_dicheck ADD 1
+       END WHILE
+
