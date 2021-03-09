@@ -1,0 +1,79 @@
+1. HUKUM II NEWTON
+ALGORITMA  =>
+
+- inisialisasi massa dari suatu benda
+- inisialisasi percepatan yang didorong oleh 3 orang
+- hitung gaya dari massa kali percepatan yang dihasilkan
+- cetak gaya
+
+PSEUDOCODE =>
+
+INITIALIZE massa EQUAL TO 600
+INITIALIZE percepatan EQUAL TO 2
+INITIALIZE gaya
+gaya EQUAL TO massa TIMES percepatan
+PRINT gaya
+
+2. TAHUN KABISAT
+
+ALGORITMA  =>
+- input tahun
+- cek apakah tahun dibagi 4 menghasilkan angka 0 dan 
+tahun  dibagi 100 tidak menghasilkan angka 0 atau
+tahun dibagi 4 menghasilkan angka 0 dan tahun  dibagi 100 menghasilkan angka 0 
+dan tahun dibagi 400 menghasilkan angka 0
+- jika benar cetak tahun kabisat
+- jika salah cetak bukan tahun kabisat
+
+PSEUDOCODE =>
+
+INITIALIZE tahun
+INPUT tahun
+IF tahun MODULUS 4 EQUAL TO 0 AND tahun MODULUS 100 NOT EQUAL TO 0 OR tahun MODULUS 4 EQUAL TO 0 AND tahun MODULUS 100 EQUAL TO 0 AND  tahun MODULUS 400 EQUAL TO 0
+    PRINT tahun kabisat
+ELSE
+    PRINT bukan tahun kabisat
+
+
+3. LAUNDRY DAY
+
+ALGORITMA  =>
+- inisialisasi jumlah pakaian yang akan dimasukkan foxie
+- inisialisasi variabel iterasi untuk melakukan perulangan
+- melakukan perulangan jumlah iterasi sebanyak jumlah pakaian yang dimasukkan foxie
+- cek jumlah iterasi sama dengan jumlah pakaian yang dimasukkan foxie
+- jika sudah sesuai mesin cuci akan menyala otomatis
+
+PSEUDOCODE =>
+
+INITIALIZE jumlahPakaian  EQUAL TO 20
+INITIALIZE iteratePakaian EQUAL TO 0
+WHILE(iteratePakaian LOWER THAN EQUAL TO jumlahPakaian)
+    THEN  iteratePakaian ADD 1
+END WHILE
+
+PRINT mesin cuci nyala
+
+
+
+
+4. PERIKSA KUKU
+ALGORITMA =>
+- inisialisasi jumlah siswa yang ada dikelas
+- inisialisasi kunjugan guru kepada siswa dalam kelas
+- guru mengunjungi siswa/siswi satu-satu jika sudah kunjungan guru ditambah satu
+- jika siswa/siswi kuku nya panjang maka guru menghukum
+- jika siswa/siswi kuku nya tidak panjang guru memuji 
+
+PSEUDOCODE =>
+
+INITIALIZE siswa EQUAL TO 40
+INITIALIZE iterateSiswa EQUAL TO 0
+INITIALIZE kukuPanjang
+WHILE(iterateSiswa LOWER THAN EQUAL TO siswa)
+    IF kukuPanjang EQUAL TO TRUE
+        PRINT hukum siswa
+    ELSE
+        PRINT memuji siswa
+    THEN iterateSiswa ADD 1
+ENDWHILE
