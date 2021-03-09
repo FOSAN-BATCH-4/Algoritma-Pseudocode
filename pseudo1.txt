@@ -41,13 +41,13 @@
 
     READ jumlahMurid IS EQUAL TO 40
     READ jumlahMuridBelumCek IS EQUAL TO 0
-    READ standartKuku IS LESS THAN 1cm
+    READ standartKuku IS EQUAL TO 1cm
 
-    IF kukuMurid IS EQUAL TO standartKuku
-        THEN dipuji
-    ELSE IF kukuMurid IS MORE THAN standartKuku
-        THEN dihukum
     WHILE jumlahMuridBelumCek IS LOWER THAN jumlahMurid
+            IF kukuMurid IS LESS THAN standartKuku
+                THEN dipuji
+            ELSE IF kukuMurid IS MORE THAN EQUAL TO standartKuku
+                THEN dihukum
         THEN jumlahMuridBelumCek ADD 1
     END WHILE
     PRINT selesai
