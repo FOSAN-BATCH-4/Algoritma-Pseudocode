@@ -1,0 +1,58 @@
+1. Newton Second Law
+	Algoritma
+	- cek massa mobil
+	- cek percepatan mobil
+	- resultan gaya adalah massa mobil di kali percepatan mobil
+	- cetak resultan gaya
+	
+	Pseudocode
+	- READ massaMobil EQUALS 600
+	- READ percepatanMobil EQUALS 2
+	- resultanGaya EQUAL TO massaMobil TIMES TO percepatanMobil
+	- PRINT resultanGaya
+
+2. Tahun Kabisat
+	Algoritma
+	- masukkan tahun
+	- jika tahun habis dibagi 4 dan tidak habis dibagi 100 atau tahun habis dibagi 4, 100 dan 400 maka cetak "Tahun Merupakan Kabisat"
+	- selain itu cetak "Tahun Bukan Kabisat"
+
+	Pseudocode
+	- READ tahun
+	- IF tahun MUDULO 4 EQUAL TO 2 AND tahun MODULO 100 IS NOT EQUAL TO 0 OR tahun MODULO 4 EQUAL TO 0 AND tahun MODULO 100 EQUAL TO 0 AND tahun MODULO 400 EQUAL TO 0 
+		THEN PRINT "Tahun Merupakan Kabisat"
+	- ELSE PRINT "Tahun Bukan Kabisat"
+
+3. Laundry Day
+	Algoritma
+	- cek jumlah pakaian
+	- ambil pakaian dan masukkan ke mesin cuci satu per satu hingga pakaian habis
+	- nyalakan mesin
+
+	Pseudocode
+	- READ jumlahPakaian EQUALS 20
+	- WHILE mesinCuci LOWER THAN jumlahPakaian
+		THEN jumlahPakaian MINUS 1 AND mesinCuci ADD 1
+	- PRINT "Nyalakan Mesin"
+
+4. Periksa Kuku
+	Algoritma
+	- cek jumlah murid
+	- inisialisasi tidak ada murid bandel
+	- inisialisasi kuku panjang
+	- periksa murid ke 1 sampai dengan jumlah murid
+	- jika terdapat murid dengan kuku panjang
+	- maka murid bandel sama dengan ada
+	- jika murid bandel ada maka hukum siswa/siswi
+	- jika tidak puji siswa/siswi
+
+	Pseudocode
+	- READ jumlahMurid EQUALS 40
+	- READ muridBandel IS FALSE
+	- READ kukuPanjang EQUALS 10mm
+	- FOR 0 to jumlahMurid
+		IF kukuMurid MORE THAN EQUAL TO kukuPanjang
+			muridBandel IS TRUE
+	- IF muridBandel IS TRUE
+		READ "hukum siswa/siswi"
+	- ELSE READ "puji siswa/siswi"
