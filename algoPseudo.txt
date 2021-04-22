@@ -1,0 +1,59 @@
+1 NEWTON,
+READ resultanGaya
+READ massaBenda EQUAL TO sixHundred
+READ percepatanBenda EQUAL TO two
+
+resultanGaya EQUAL TO massaBenda TIMES percepatanBenda
+resultanGaya EQUAL TO sixHundred TIMES two
+resultanGaya EQUAL TO oneThousand and twoHundred
+
+var resultanGaya = 0
+var massaBenda = 600
+var percepatanBenda = 2
+resultanGaya = massaBenda * percepatanBenda
+
+2. KABISAT,
+READ tahun
+READ kondisiSatu EQUAL TO tahun MODULUS four
+READ kondisiDua EQUAL TO tahun MODULUS oneHundred BIGGER THAN zero
+
+IF kondisiSatu
+    IF kondisiDua
+    PRINT 'tahun kabisat
+ELSE IF tahun MODULUS four AND tahun MODULUS oneHundred AND tahun MODULUS 400
+    PRINT 'tahun kabisat
+ELSE 
+    PRINT 'bukan tahun kabisat'
+
+IF tahun habis dibagi 4 dan tidak habis dibagi 100
+PRINT tahunkabisat
+ELSE IF(tahun habis dibagi 4 dan habis dibagi 100,dan habis dibagi 400)
+PRINT TAHUN kabisat
+ELSE
+PRINT Bukan Tahun Kabisat
+
+
+3 LAUNDRY FOXIE,
+READ pakaian EQUAL TO 20
+READ mesinCuci
+
+FOR pakaian EQUAL TO 20
+PRINT mesinCuci dinyalakan
+
+WHILE pakaian LOWER THAN 21
+mesinCuci ADD 1
+1
+1
+1
+1
+1
+1
+20...
+PRINT 'mesinCuci dinyalakan'
+
+4. KUKU SISWA,
+FOR siswa EQUAL TO 40
+IF siswa EQUAL TO "kukuPanjang"
+    PRINT "hukum"
+ELSE
+    PRINT "dipuji"
